@@ -18,19 +18,43 @@
   top: 0;
 }
 
+.sconto5 {
+  background-color: red;
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+
+/* immagini prodotti */
 .immagine-prodotto-uno {
   position: absolute;
   top: 20%;
   right: 20%;
 }
 
+.immagine-prodotto-due {
+  position: absolute;
+  top: 20%;
+  right: 28%;
+}
+
+.immagine-prodotto-tre {
+  position: absolute;
+  top: 20%;
+  right: 18%;
+}
+
+/* impostazioni cuorerosso */
 .cuorerosso{
   position: absolute;
   bottom:0;
-  right: 40%;
+  right: 45%;
   display: none;
 }
-
-.prodotto-uno:hover .cuorerosso{
+.prodotto:hover .cuorerosso{
   display: block;
+}
+/* distanziamento sociale tra i due blocchi */
+.fila-due {
+  margin-top: 20px;
 }
